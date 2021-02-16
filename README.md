@@ -20,13 +20,16 @@ Software Engineering Methodology: Scrum
 git clone https://github.com/MuskanM1/EventLog_Event-Management-System
 ```
 
-2. Go into that folder and type the following commands. 
+2. Go into that folder and start the backend server in one terminal. 
 ```
 cd src/backend_and_database
 npm install
 npm start
-cd ../frontend
-npm install
+```
+
+2. Go into that folder and start the frontend server in another terminal. 
+```
+cd src/frontend
 npm start
 ```
 
@@ -37,4 +40,4 @@ http://localhost:3000
 <br>
 
 
-For detailed information of this project, see the `docs` folder. It consists of the System Requirements document (`1_Requirements_Document`), System Design document (`2_Design_Document`), Construction Details (4_Construction_Detais), Testing documents (`5_Testing`) and other related documents. 
+For detailed information of this project, see the `docs` folder. It consists of the System Requirements document (`1_Requirements_Document`), System Design document (`2_Design_Document`), Construction Details (4_Construction_Details), Testing documents (`5_Testing`) and other related documents. 
